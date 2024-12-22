@@ -10,7 +10,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 SRC_DIR = srcs
 OBJ_DIR = build
-SUBDIRS =
+SUBDIRS = insertion deletion make_node get_index
 
 INCLPATH = ./includes/
 INCLUDES = $(foreach H, $(INCLPATH), -I $(H))
